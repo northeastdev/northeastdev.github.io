@@ -86,6 +86,7 @@ body.dark-theme{
 /*========== Button Dark/Light ==========*/
 .nav__btns{
    display: flex;
+   column-gap: 5px;
    align-items: center;
 }
 
@@ -1019,6 +1020,7 @@ img{
 @media screen and (max-width: 350px){
    .container{
       margin-left: var(--mb-1);
+      margin-top: 10px;
       margin-right: var(--mb-1);
    }
 
