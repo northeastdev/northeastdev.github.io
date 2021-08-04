@@ -767,6 +767,13 @@ img{
    transform: translateX(.25rem);
 }
 
+.code__button{
+   background-color: transparent;
+   border: solid;
+   border-width: thin;
+   border-color: var(--first-color);
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after{
    content: '';
