@@ -393,7 +393,8 @@ img{
 }
 
 .button--small{
-   padding: .75rem 1rem;
+   padding: .5rem .65rem;
+   border: solid 1px var(--first-color);
 }
 
 .button--link{
@@ -675,6 +676,7 @@ img{
 .services__button{
    cursor: pointer;
    font-size: var(--small-font-size);
+   border: none;
 }
 
 .services__button:hover .button__icon{
@@ -769,9 +771,7 @@ img{
 
 .code__button{
    background-color: transparent;
-   border: solid;
-   border-width: thin;
-   border-color: var(--first-color);
+   border: solid 1px var(--first-color);
 }
 
 .swiper-button-prev::after,
