@@ -772,6 +772,11 @@ img{
 .code__button{
    background-color: transparent;
    border: solid 1px var(--first-color);
+   color: var(--first-color);
+}
+
+.code__button:hover{
+   color: #FFF;
 }
 
 .swiper-button-prev::after,
