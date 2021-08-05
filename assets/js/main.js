@@ -33,9 +33,6 @@ navLink.forEach(n => n.addEventListener('click', linkAction) )
 const skillsContent = document.getElementsByClassName('skills__content'),
       skillsHeader = document.querySelectorAll('.skills__header')
 
-      console.log(skillsContent)
-      console.log(skillsHeader)
-
 function toggleSkills(){
    let itemClass = this.parentNode.className;
 
